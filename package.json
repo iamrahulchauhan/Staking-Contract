@@ -1,0 +1,25 @@
+{
+  "name": "staking-contract",
+  "version": "1.0.0",
+  "description": "1 users will stake and definate x amount of fee will be taken   \r 2 50% of the fee will be sent to admin wallet  \r 3 50% of the rest will be distributed to all the holders based on the amount they have staked   \r 4 emission means daily fees redistributed to the people should be a read function in contract",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrahulchauhan/Staking-Contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamrahulchauhan/Staking-Contract/issues"
+  },
+  "homepage": "https://github.com/iamrahulchauhan/Staking-Contract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}
